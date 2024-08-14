@@ -4,7 +4,8 @@ import { NavLink, Outlet } from "react-router-dom";
 
 function Navbar(){  return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-dark  text-light" >  <NavLink to={`/`} className="navbar-brand  text-light">&nbsp;&nbsp;  <i class="bi bi-bank2"></i> MIT FrontEnd Bank Exercise&nbsp;&nbsp;</NavLink>
+      <nav className="navbar navbar-expand-lg navbar-light bg-dark  text-light" >  <NavLink to={`/`} className="navbar-brand  text-light">&nbsp;&nbsp;  <i class="bi bi-bank2"></i> MIT Full Stack Bank Exercise
+ &nbsp;&nbsp;</NavLink>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
